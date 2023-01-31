@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.header .first {
+  font-family: "Abel", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+.header .second {
+  font-family: "Lobster", cursive;
+  font-size: 48px;
+  font-weight: 600;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body form .row input,select {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 10px;
+  margin: 10px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.body form .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body form .button input{
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(12, 255, 174);
+    color: white;
+    border: none;
+    border-radius: 200px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.row .degree{
+    padding: 10px;
+}
+.row .degree span{
+    font-weight: bold;
+}
+.row .heading{
+  
+}
